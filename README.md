@@ -1,13 +1,3 @@
-# artgen
+#Random Collage Generator
 
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
-
-## License
-
-Copyright © 2013 FIXME
-
-Distributed under the Eclipse Public License, the same as Clojure.
+This project was concieved of and created during an independent study during the fall of 2013 at Hampshire College
