@@ -1,0 +1,248 @@
+(use RandomArtGenerator.core)
+(:use RandomArtGenerator.core)
+(use RandomArtGenerator.core)
+(use 'RandomArtGenerator.core)
+(slurp ".")
+(slurp "~/reminders")
+(use 'RandomArtGenerator.core)
+(loadwebimg)
+(use 'RandomArtGenerator.core)
+(def filelst (map (fn [f] (.getName f)) (.listFiles (File. (str datadir)))))
+(import java.io.File)
+(def filelst (map (fn [f] (.getName f)) (.listFiles (File. (str datadir)))))
+(first (shuffle filelist))
+(first (shuffle filelst))
+(first filelst)
+filelst
+(def filelst (map (fn [f] (.getName f)) (.listFiles (File. "../../"))))
+filelst
+(def filelst (map (fn [f] (.getName f)) (.listFiles (File. "../"))))
+filelst
+(def filelst (map (fn [f] (.getName f)) (.listFiles (File. "."))))
+filelst
+(def filelst (map (fn [f] (.getName f)) (.listFiles (File. "./data"))))
+filelst
+(loadwebimg)
+filelst (map (fn [f] (.getName f)) (.listFiles (File. (str datadir))(load-image (str datadir imgf) (rand-int (500)) (rand-int (500))))
+:q
+/
+exit
+)
+(load-image (str datadir imgf) (rand-int (500)) (rand-int (500)))
+(image (load-image "./data/image1.jpg") (rand-int (500)) (rand-int (500)))
+(load-image "./data/image1.jpg") (rand-int (500)) (rand-int (500))
+(use 'RandomArtGenerator.core)
+(defn draw[] (ellipse 100 100 20 20))
+(defn draw[] (ellipse 100 100 20 20) (load-image "image1.jpg") (rand-int (500)) (rand-int (500))))
+ (image (load-image "image1.jpg") (rand-int (500)) (rand-int (500    )))
+(defn draw[]  (image (load-image "image1.jpg") (rand-int (500)) (rand-int (500    )))
+)
+(defn draw[]
+ (image (load-image "../image1.jpg") (rand-int (500)) (rand-int (500)))
+)
+(defn draw[]
+ (image (load-image "../image1.jpg") (rand-int (500)) (rand-int (500)))
+)
+(defn draw[]
+ (image (load-image "image1.jpg") (rand-int (500)) (rand-int (500)))
+)
+(defn draw[]
+ (image (load-image "image1.jpg" 0 0)))
+(defn draw[] (image (load-image "image1.jpg") 0 0))
+(defn draw[] (image (load-image "../image1.jpg") 0 0))
+(defn draw[] (image (load-image "../../Data/image1.jpg") 0 0))
+ (image (load-image "image1.jpg" 0 0))):q
+(defn draw[] (image (load-image "image1.jpg") 0 0))
+(defn draw[] (image (load-image "./Data/image1.jpg") 0 0))
+(defn draw [] (loadwebimg))
+println (map (fn [f] (.getName f)) (.listFiles (File. (str datadir)))
+)
+(def filelst (map (fn [f] (.getName f)) (.listFiles (File. (str datadir)))))
+(first (shuffle filelst))
+(def imgf (first (shuffle filelst)))
+(str datadir imgf)
+(defn draw [] (image (load-image (str datadir imgf)) 0 0))
+(defn draw [] (tint-rand) (image (load-image (str datadir imgf)) 0 0))
+(imgf)
+(println imgf)
+(defn draw[] (loadwebimg))
+(defn draw[] (tint-rand) (loadwebimg))
+(def active-functions [(tint-rand), (blur-rand)]
+)
+(use 'RandomArtGenerator.core)
+(def active-functions [(tint-rand), (blur-rand)])
+:q
+(use 'RandomArtGenerator.core)
+(def filelst (map (fn [f] (.getName f)) (.listFiles (File. (str datadir)))))
+(defn draw [] (loadwebimg) (blur-rand) (blackhole) (tint-rand) (hoursleft))
+(defn draw[] (loadwebimg) (blur-rand) (blackhole) (hoursleft))
+(defn setup[] (smooth) (loadwebimg))
+(defn setup[] (smooth) (loadwebimg) (hoursleft))
+(defn setup[] (smooth) (fill 255) (loadwebimg) (hoursleft))
+(def funcs [(tint-rand), (blur-rand)])
+(def funcs '((tint-rand), (blur-rand)))
+(defn square [x] (* x x))
+(def funcs '((tint-rand), (blur-rand), (square)))
+(nth funcs 2))
+(defn square [] (* 2 2))
+(nth funcs 2))
+(def funcs '((tint-rand), (blur-rand), (square), (println "hello")))
+(nth funcs 3))
+(apply (nth funcs 3))
+(do (nth funcs 3))
+(exec (nth funcs 3))
+(eval (nth funcs 3))
+(eval (nth funcs 3) (nth funcs 2))
+(eval ((nth funcs 3) (nth funcs 2)))
+(eval ((nth funcs 2))
+)
+(eval ((nth funcs 3))
+)
+(eval (nth funcs 3))
+(eval (nth funcs 3) (nth funcs 3))
+(eval ((nth funcs 3) (nth funcs 3)))
+(eval (nth funcs 3))
+(use 'RandomArtGenerator.core)
+functions
+(use 'RandomArtGenerator.core)
+func
+println width
+(println width)
+(println (width))
+(width)
+(drawprep)
+quicksort :: Ord a => [a] -> [a]
+quicksort []     = []
+quicksort (p:xs) = (quicksort lesser) ++ [p] ++ (quicksort greater)
+    where
+        lesser  = filter (< p) xs
+        greater = filter (>= p) xs
+(def funclst (repeatedly (rand-int 100) (nth functions (rand-int (count functions)))))
+funclst
+(def funclst (repeatedly (rand-int 100) (nth functions (rand-int (count functions)))))
+funclst
+(def funclst (repeatedly (rand-int 100) (nth functions (rand-int (count functions)))))
+(def funclst (vector (repeatedly (rand-int 100) (nth functions (rand-int (count functions))))))
+funclst
+(nth funclst (random (count functions)))
+(nth funclst (rand (count functions)))
+(nth funclst (rand-int (count functions)))
+(nth functions (rand-int (count functions)))
+(repeatedly 10 (nth functions (rand-int (count functions))))
+(vector (repeatedly 10 (nth functions (rand-int (count functions)))))
+(repeatedly 10 (vector (nth functions (rand-int (count functions)))))
+functions
+(repeatedly 10 #(rand-nth functions))
+(drawprep)
+(defn draw [] (blackhole))
+(defn draw[] (fill 255) (ellipse 10 10 10 10))
+(defn draw[] (fill 255) (ellipse 10 10 10 100))
+(defn draw[] (fill 255) (ellipse 100 100 80 80))
+(defn draw[] (fill 255) (ellipse 100 100 80 40))
+(defn draw[] (fill 255) (ellipse 100 30 80 40))
+(defn draw[] (background-float 50 200 100))
+width
+'quil.core/width
+(use 'quil.core/width)
+(println 'quil.core/width)
+(defn draw [] (blackhole))
+(defn test [] (doall (blackhole)))
+(defn tester [] (doall (blackhole)))
+(defn draw [] (tester))
+(defn tester [] (doall (map #((%)) (blackhole))))
+(defn draw [] )
+(defn setup [] (drawprep) )
+(defn setup [] (smooth) (blackhole))
+(defn -man [] #_(run-sketch RandomArtGenerator))
+(defn -main [] #_(run-sketch RandomArtGenerator))
+(defn draw[] (blackhole))
+(defn draw[] (blackhole))\
+('use RandomArtGenerator.core)
+(defn draw [] (blackhole))
+(defn draw [] (drawprep))
+(drawprep
+)
+(def test '("fine", "dandy"))
+(def testl '("fine", "dandy"))
+(concat testl "oi")
+(concat testl '("oi"))
+(concat '("oi") testl)
+(drawprep)
+(defn draw[] (hoursleft))
+(map (fn [f] (.getName f)) (.listFiles (File. (str      datadir))
+)
+(def words (slurp "./data/part-of-speech.txt"))
+words
+(def words (slurp "./data/pos/verbs.txt"))
+words
+(def words (split (slurp "./data/pos/verbs.txt") #"\r?\n")
+)
+(def words (split (slurp "./data/pos/verbs.txt") #"\r?\n"))
+(split (slurp "./data/pos/verbs.txt") #"\r?\n")
+(def verbs (slurp "./data/pos/verbs.txt"))
+(split verbs)
+('use [clojure.string :only (join split)])
+'use [clojure.string :only (join split)]
+(split verbs)
+(use '[clojure.string :only (join split)])
+(split (slurp "./data/pos/verbs.txt") #"\r?\n")
+(rand-nth (split (slurp "./data/pos/verbs.txt") #"\r?\n"))
+(rand-nth (split (slurp "./data/pos/verbs.txt") #"\r\n"))
+(defn sentance[]
+  (let [
+        nouns (split (slurp "./data/pos/nouns") #"\r\n")
+        verbs (split (slurp "./data/pos/verbs") #"\r\n")
+        adj (split (slurp "./data/pos/verbs") #"\r\n")
+        sentance (str (rand-nth nouns) " " (rand-nth verbs) " " (rand-nth nouns))
+        ]
+    (println sentance)
+   )) 
+(sentance)
+(defn sentance[]
+  (let [
+        nouns (split (slurp "./data/pos/nouns.txt") #"\r\n")
+        verbs (split (slurp "./data/pos/verbs.txt") #"\r\n")
+        adj (split (slurp "./data/pos/adj.txt") #"\r\n")
+        sentance (str (rand-nth nouns) " " (rand-nth verbs) " " (rand-nth nouns))
+        ]
+    (println sentance)
+   ))
+(sentance)
+(/ 10 5)
+(use '[clojure.java.shell :only [sh]])
+(sh "ls")
+(sh "ruby" "wc.rb")
+(sh "sudo" "ruby" "wc.rb")
+(def functions {
+                :blackhole [#(rand-int displaywidth) #(rand-int displayheight) #(rand-int 200)]
+                })
+                :blackhole [#(rand-int displaywidth) #(rand-int displayheight) #(rand-int 200)]
+(def displaywidth 200)
+(def displayheight 200)
+(def functions {
+                :blackhole [#(rand-int displaywidth) #(rand-int displayheight) #(rand-int 200)]
+                })
+(defn funcgenerator[]
+(let [funcs [blackhole, blackhole]
+)
+(keys functions)
+(functions)
+(functions [0])
+(keys functions)
+(function :blackhole)
+(function[:blackhole])
+(hashmap function :blackhole)
+(hash-map function :blackhole)
+(functions :blackhole)
+[blackhole (functions :blackhole)]
+(defn test [] (let [tt #(rand-int 20)] (tt)))
+(defn testin [] (let [tt #(rand-int 20)] (tt)))
+(testin)
+(defn testin [] (let [tt #(rand-int 20)] (tt) (tt)))
+(testin)
+(defn testin [] (let [tt #(rand-int 20)] (println (tt) (tt))))
+(testin)
+(drawprep)
+(println (drawprep))
+(drawprep)
+(newwebimg)
