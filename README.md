@@ -1,6 +1,8 @@
 #Random Collage Generator
 
-This project was concieved of and created during a fall 2013 independent at Hampshire College.
+![alt tag](https://raw.github.com/jakeschievink/RandomCollageGenerator/master/examples/2013-04-30-201027_985x716_scrot.png)
+
+This project was conceived of and created during a fall 2013 independent at Hampshire College.
 
 ###Log of the process I went through during the independent study: 
 
